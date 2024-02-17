@@ -1,4 +1,4 @@
-package br.com.dev.api.resources;
+package br.com.dev.api.controller;
 
 
 import br.com.dev.api.domain.User;
@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/user")
-public class UserResource {
+public class UserController {
 
     @Autowired
     private UserService userService;
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<User> findById(@PathVariable Integer id) {
-        return ResponseEntity.ok().body(userService.findById(id));
+     return ResponseEntity.ok().body(userService.findById(id));
     }
 
 
