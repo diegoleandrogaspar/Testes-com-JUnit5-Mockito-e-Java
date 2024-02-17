@@ -1,12 +1,13 @@
 package br.com.dev.api.domain;
 
-import jakarta.persistence.*;
 import lombok.*;
+import javax.persistence.*;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Table(name = "usuarios")
 public class User {
 
     @Id

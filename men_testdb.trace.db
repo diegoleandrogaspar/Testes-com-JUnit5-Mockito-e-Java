@@ -1,0 +1,27 @@
+2024-02-16 22:11:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:19:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:19:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:24:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:28:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:29:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from [*]user user0_ where user0_.id=?"; expected "identifier"; SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from user user0_ where user0_.id=? [42001-214]
+2024-02-16 22:31:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from users user0_ where user0_.id=? [42104-214]
+2024-02-16 22:34:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIOS" not found (this database is empty); SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from usuarios user0_ where user0_.id=? [42104-214]
+2024-02-16 22:34:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIOS" not found (this database is empty); SQL statement:
+select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.name as name3_0_0_, user0_.password as password4_0_0_ from usuarios user0_ where user0_.id=? [42104-214]
